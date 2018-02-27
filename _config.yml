@@ -8,16 +8,18 @@ gitment:
   client_secret: ## GitHub client secret, e.g. ec2fb9054972c891289640354993b662f4cccc50
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
-changyan: ## Your changyan appid, e.g. cyrALsXc8
-changyan_conf: ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
+## Your changyan appid, e.g. cyrALsXc8
+changyan: cytrxuevK
+## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
+changyan_conf: prod_9ab9612b3109b558f046277fa8bf2206
 valine: ## https://valine.js.org
   enable: false ## If you want to use Valine comment system, please set the value to true.
-  appid: ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
-  notify: false ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
-  verify: false ## Validation code.
-  placeholder: Just so so ## Comment box placeholders.
-  avatar: 'mm' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+  appid: 27dJoU4Q2oRJ50LSxSKucILF-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: Fwa2rm57aMW217bcpwgQRExF ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  notify: true ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
+  verify: true ## Validation code.
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! ## Comment box placeholders.
+  avatar: 'wavatar' ## Gravatar type, see https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
   pageSize: 10 ## Number of comments per page.
   guest_info: nick,mail,link ## Attributes of reviewers.
 
@@ -33,7 +35,7 @@ show_category_count: false ## If you want to show the count of categories in the
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, you must have hexo-helper-qrcode installed.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
-widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
+widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
   color: 100,99,98 ## RGB value of the color, e.g. "100,99,98"
@@ -62,9 +64,6 @@ menu:
   - page: history
     directory: history/
     icon: fa-book
-  - page: guestbook
-    directory: guestbook/
-    icon: fa-comments
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -78,12 +77,12 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: 素人派
-    url: http://surenpi.com/
   - title: Able
     url: http://blog.csdn.net/u012373815
   - title: Xml Boy
     url: http://blog.csdn.net/u010416101
+  - title: 陈文俊的博客
+    url: https://yo-cwj.com/
 
 timeline:
   - num: 1
