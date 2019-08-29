@@ -77,7 +77,7 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: Able
+  - title: Abel
     url: http://blog.csdn.net/u012373815
   - title: Xml Boy
     url: http://blog.csdn.net/u010416101
