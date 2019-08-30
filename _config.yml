@@ -1,5 +1,6 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
-disqus: ## Your disqus_shortname, e.g. username
+disqus: diyishuai
+## Your disqus_shortname, e.g. username
 gitment:
   enable: false ## If you want to use Gitment comment system please set the value to true.
   owner: ## Your GitHub ID, e.g. username
@@ -9,9 +10,9 @@ gitment:
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 ## Your changyan appid, e.g. cyrALsXc8
-changyan: cytrxuevK
+changyan: ##cytrxuevK
 ## Your changyan conf, e.g. prod_d8a508c2825ab57eeb43e7c69bba0e8b
-changyan_conf: prod_9ab9612b3109b558f046277fa8bf2206
+changyan_conf: ##prod_9ab9612b3109b558f046277fa8bf2206
 valine: ## https://valine.js.org
   enable: false ## If you want to use Valine comment system, please set the value to true.
   appid: 27dJoU4Q2oRJ50LSxSKucILF-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
@@ -34,7 +35,7 @@ baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 toc_number: true ## If you want to add list number to toc please set the value to true.
 shareto: false ## If you want to use the share button please set the value to true, you must have hexo-helper-qrcode installed.
-busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+busuanzi: false ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
 canvas_nest:
   enable: false ## If you want to use dynamic background please set the value to true, you can also fill the following parameters to customize the dynamic effect, or just leave them blank to keep the default effect.
