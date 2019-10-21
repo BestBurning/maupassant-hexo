@@ -15,8 +15,8 @@ changyan: ##cytrxuevK
 changyan_conf: ##prod_9ab9612b3109b558f046277fa8bf2206
 valine: ## https://valine.js.org
   enable: false ## If you want to use Valine comment system, please set the value to true.
-  appid: 27dJoU4Q2oRJ50LSxSKucILF-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
-  appkey: Fwa2rm57aMW217bcpwgQRExF ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
+  appid: ##27dJoU4Q2oRJ50LSxSKucILF-gzGzoHsz ## Your LeanCloud application App ID, e.g. pRBBL2JR4N7kLEGojrF0MsSs-gzGzoHsz
+  appkey: ##Fwa2rm57aMW217bcpwgQRExF ## Your LeanCloud application App Key, e.g. tjczHpDfhjYDSYddzymYK1JJ
   notify: true ## Mail notifier, see https://github.com/xCss/Valine/wiki/Valine-评论系统中的邮件提醒设置
   verify: true ## Validation code.
   placeholder: ヾﾉ≧∀≦)o来啊，快活啊! ## Comment box placeholders.
@@ -84,6 +84,8 @@ links:
     url: http://blog.csdn.net/u010416101
   - title: 陈文俊的博客
     url: https://yo-cwj.com/
+  - title: 西蓝花的Blog
+    url: https://www.xilanhua-c7.top
 
 timeline:
   - num: 1
