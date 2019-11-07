@@ -89,11 +89,16 @@ links:
 
 timeline:
   - num: 1
-    word: 2016.08-个人博客正式上线
+    word: 2016.08-个人博客正式上线于GitHub Pages
   - num: 2
-    word: 2016.10-逐步完善中。。。
+    word: 2016.09-开启Google搜索
   - num: 3
+    word: 2016.10-开启Baidu搜索
+  - num: 4
     word: 2018.01-域名由diyishuai.cn迁移至di1shuai.com
+  - num: 5
+    word: 2018.02-中国境内使用Coding Pages，境外使用GitHub Pages进行双线部署
+
 
 # Static files
 js: js
