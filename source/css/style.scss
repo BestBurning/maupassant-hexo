@@ -266,7 +266,7 @@ div {
         padding-top: 15px;
         text-align: justify;
         text-justify: distribute;
-        word-break: break-all;
+        word-break: normal;
         h2 {
             margin: 1.4em 0 1.1em;
             border-bottom: 1px solid #eee;
@@ -280,16 +280,19 @@ div {
         }
         p {
             margin: 0 0 1.234em;
+            word-break: break-word;
+            overflow-wrap: break-word;
             code {
                 display: inline-block;
                 margin: 0 5px;
                 padding: 0 5px;
                 background: #f7f8f8;
+                font-family: Menlo, Consolas, monospace !important;
             }
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
                 }
@@ -326,24 +329,48 @@ div {
                 margin: 0 5px;
                 padding: 0px 5px;
                 background: #f7f8f8;
+                font-family: Menlo, Consolas, monospace !important;
             }
             a {
                 color: #01579f;
                 padding-bottom: 2px;
-                word-break: break-all;
+                word-break: normal;
                 &:hover {
                     text-decoration: underline;
                 }
             }
         }
+        .tagcloud {
+            margin: 0 0 30px 0;
+            a {
+                padding:0px 5px;
+                margin:3px;
+                display: inline-block;
+                border: 1px solid #808080;
+                border-radius: 999em;
+                color: #aaa;
+                &:hover {
+                    color: #fff;
+                    border: 1px solid #808080;
+                    background: #808080;
+                }
+            }
+        }
+        .one-tag-list {
+            margin: 30px 0;
+            .tag-name {
+                .tag-text{
+                    margin-left: 5px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+        }
     }
     .tags {
-        padding-bottom: 1em;
         a {
             margin-right: .5em;
-            &:before {
-                font-family: "FontAwesome";
-                content: "\f0c6";
+            i{
                 padding-right: 0.3em;
             }
         }
@@ -911,6 +938,7 @@ figure.highlight,
         background:   #f7f8f8;
         border-right: 1px solid #e6e6e6;
         padding:      0.3em 15px;
+        user-select:  none;
     }
     // Code container
     .code {
@@ -937,6 +965,7 @@ figure.highlight,
         font-family: Menlo, Consolas, monospace;
         font-size:   1em;
         margin:      0 0 5px 0;
+        user-select: none;
     }
 }
 
@@ -1020,6 +1049,18 @@ figure.highlight,
         }
         .number,
         .built_in {
+            color: #0086b3;
+        }
+    }
+    // Clojure
+    &.clj .code {
+        .builtin-name {
+            color: #df5000;
+        }
+        .name {
+            color: #795da3;
+        }
+        .number {
             color: #0086b3;
         }
     }
@@ -1360,6 +1401,15 @@ figure.highlight,
             color: #795da3;
         }
     }
+    // Lisp
+    &.lisp .code {
+        .name {
+            color: #df5000;
+        }
+        .number {
+            color: #0086b3;
+        }
+    }
     // SCSS
     &.scss {
         .tag,
@@ -1525,6 +1575,19 @@ figure.highlight,
     padding-left: 0;
   }
 }
+@media print, screen and (max-width: 48em){
+    .toc-article{
+        margin:0em;
+        max-width: 100%;
+    }
+    .clear{
+        padding: 2.1em 0em 0em 0em;
+    }
+    #toc {
+        float: none;
+    }
+}
+
 
 /* table*/
 table {
@@ -1711,3 +1774,5 @@ em.search-keyword {
   background-color: #999999;
   text-shadow: 0
 }
+
+
