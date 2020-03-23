@@ -109,7 +109,7 @@ timeline:
   - num: 5
     word: 2018.02-中国境内使用Coding Pages，境外使用GitHub Pages进行双线部署
   - num: 6
-    word: 2020.01-Coding Pages内部服务调整，被移至腾讯新加坡机房
+    word: 2020.01-Coding Pages内部服务调整，由深圳移至腾讯新加坡机房
   - num: 7
     word: 2020.02-国内使用腾讯CDN+COS托管
 
