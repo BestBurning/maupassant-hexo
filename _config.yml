@@ -86,15 +86,15 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: Abel的博客(大数据、人工智能专家)
+  - title: Abel的博客(大数据、AI专家)
     url: http://blog.csdn.net/u012373815
-  - title: Sean的博客(大数据、人工智能专家)
+  - title: Sean的博客(大数据、AI专家)
     url: http://blog.csdn.net/u010416101
   - title: 陈文俊的博客(前端专家)
     url: https://yo-cwj.com/
   - title: 西蓝花的博客(未知领域专家)
     url: https://www.xilanhua-c7.top
-  - title: Alan的博客(人工智能专家)
+  - title: Alan的博客(AI专家)
     url: https://gaojianchao.github.io/learngit/
 
 timeline:
