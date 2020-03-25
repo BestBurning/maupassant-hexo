@@ -1,0 +1,26 @@
+extends base
+block title
+  title= page.title + ' | ' + config.title
+block content
+  .post
+    h1.post-title= page.title
+    .post-content
+      != page.content
+      br
+      br
+      p
+        i(class='fa fa-user') 
+        |  Nickname: 
+        a(rel='nofollow' href='https://di1shuai.com') Bruce
+      p
+        i(class='fa fa-envelope') 
+        |  Email:  
+        a(rel='nofollow' href='mailto:zhushuai026@gmail.com' target='_blank') zhushuai026@gmail.com
+      p
+        i(class='fa fa-github') 
+        |  Github: 
+        a(rel='nofollow' href='https://github.com/BestBurning' target='_blank' ) @BestBurning
+      include _widget/donate.pug
+  if page.comments
+    include _partial/comments.pug
+
