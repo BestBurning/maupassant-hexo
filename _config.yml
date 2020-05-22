@@ -71,6 +71,9 @@ menu:
   - page: tags
     directory: tags/
     icon: fa-tag
+  - page: products
+    directory: products/
+    icon: fa-cubes
   - page: about
     directory: about/
     icon: fa-user

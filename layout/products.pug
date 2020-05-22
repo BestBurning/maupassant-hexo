@@ -1,0 +1,22 @@
+extends base
+block title
+  title= page.title + ' | ' + config.title
+block content
+  .post
+    .post-content
+      .products
+
+      for tag in site.tags.toArray()
+        if (tag.name == 'application' || tag.name == 'command-util' || tag.name == 'driver' || tag.name=='framework' || tag.name=='go-flutter-plugin')
+          .one-tag-list
+            span(class='fa fa-tag tag-name' id=tag.name) 
+              span(class="tag-text") #{tag.name}
+            for post in tag.posts.toArray()
+              .post-preview
+                a( href=config.root + post.path title=post.title ) #{post.title}
+
+
+  if page.donate
+      include _widget/donate.pug
+  if page.comments
+    include _partial/comments.pug
