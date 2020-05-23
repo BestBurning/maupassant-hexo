@@ -93,15 +93,17 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 
 links:
   - title: Abel的博客(大数据、AI专家)
-    url: http://blog.csdn.net/u012373815
+    url: https://blog.csdn.net/u012373815
   - title: Sean的博客(大数据、AI专家)
-    url: http://blog.csdn.net/u010416101
+    url: https://blog.csdn.net/u010416101
   - title: 陈文俊的博客(前端专家)
     url: https://yo-cwj.com/
   - title: 西蓝花的博客(未知领域专家)
     url: https://www.xilanhua-c7.top
   - title: Alan的博客(AI专家)
     url: https://gaojianchao.github.io/learngit/
+  - title: 虾米的蜗居
+    url: https://woj.app
 
 timeline:
   - num: 1
@@ -117,7 +119,7 @@ timeline:
   - num: 6
     word: 2020.01-Coding Pages内部服务调整，由深圳移至腾讯新加坡机房
   - num: 7
-    word: 2020.02-国内使用腾讯CDN+COS托管
+    word: 2020.02-国内由Coding Pages迁移至腾讯CDN+COS托管
 
 # Static files
 js: js
