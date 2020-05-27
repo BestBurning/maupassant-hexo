@@ -43,7 +43,7 @@ canvas_nest:
   zIndex: -1 ## The z-index property of the background, e.g. "-1"
   count: 120 ## Quantity of lines, e.g. "150"
 donate:
-  enable: false ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
+  enable: true ## If you want to display the donate button after each post, please set the value to true and fill the following items on your need. You can also enable donate button in a page by adding a "donate: true" item to the front-matter.
   github: https://github.com/BestBurning ## GitHub URL, e.g. https://github.com/Kaiyuan/donate-page
   alipay_qr: /img/AliPayQR.png ## Path of Alipay QRcode image, e.g. /img/AliPayQR.png
   wechat_qr: /img/WeChatQR.png ## Path of Wechat QRcode image, e.g. /img/WeChatQR.png
@@ -51,8 +51,8 @@ donate:
   btc_key: ## Bitcoin key, e.g. 1KuK5eK2BLsqpsFVXXSBG5wbSAwZVadt6L
   paypal_url: ## Paypal URL, e.g. https://www.paypal.me/tufu9441
 post_copyright:
-  enable: false ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
-  author: bruce ## Your author name, e.g. tufu9441
+  enable: true ## If you want to display the copyright info after each post, please set the value to true and fill the following items on your need.
+  author: Shea ## Your author name, e.g. tufu9441
   copyright_text: ## Your copyright text, e.g. The author owns the copyright, please indicate the source reproduced.
 love: true ## If you want the love to appear when you click anywhere, set the value to true.
 plantuml: ## Using PlantUML to generate UML diagram, must install hexo-filter-plantuml (https://github.com/miao1007/hexo-filter-plantuml).
