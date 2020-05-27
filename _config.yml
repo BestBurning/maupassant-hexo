@@ -74,6 +74,9 @@ menu:
   - page: products
     directory: products/
     icon: fa-cubes
+  - page: knowledge-tree
+    directory: knowledge-tree/
+    icon: fa-tree
   - page: about
     directory: about/
     icon: fa-user
