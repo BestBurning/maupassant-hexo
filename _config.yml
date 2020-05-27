@@ -122,11 +122,11 @@ timeline:
   - num: 6
     word: 2020.01-Coding Pages内部服务调整，由深圳移至腾讯新加坡机房
   - num: 7
-    word: 2020.02-国内由Coding Pages迁移至腾讯CDN+COS托管
+    word: 2020.02-中国境内由Coding Pages迁移至腾讯CDN+COS托管
 
 # Static files
 js: js
 css: css
 
 # Theme version
-version: 0.0.0
+version: 0.0.1
