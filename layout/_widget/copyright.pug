@@ -8,12 +8,6 @@ div.post-copyright
         span= __('copyright_author_prefix')
         = theme.post_copyright.author
     p
-        span= __('copyright_date_prefix')
-        = page.date.format(config.date_format)
-    p
-        span= __('copyright_update_prefix')
-        = page.updated.format(config.date_format)
-    p
         span= __('copyright_link_prefix')
         a(href='/' + page.path)= page.permalink
         span.copy-path
